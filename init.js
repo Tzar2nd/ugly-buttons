@@ -21,7 +21,7 @@ function buttonCreator(buttonName) {
     button.setNavBorderRadius(rand(1, 20));
     button.setItemMargin(rand(0, 20)/10 + 'rem');
     button.setItemBorderRadius(rand(1, 20));
-    button.setItemColor
+    
             (`rgba(${rand(0, 255)}, ${rand(0, 255)}, ${rand(0, 255)}, 1)`);
     button.setItemFontColor
             (`rgba(${rand(0, 255)}, ${rand(0, 255)}, ${rand(0, 255)}, 1)`);
